@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <DefineConstants Condition=" '$(TargetFramework)' == 'net45' ">NET_45</DefineConstants>
+    <DefineConstants Condition=" '$(TargetFramework)' != 'net45' ">NOT_45</DefineConstants>
+  </PropertyGroup>
+</Project>
