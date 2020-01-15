@@ -1,5 +1,5 @@
 <!-- Este target genera constantes para usar en directivas de precompilación, tales como #if, a lo largo de código multiplataforma permitiendo que el código se adapte en función del framework. No es una lista extensiva, y solo debe usarse como referencia.  -->
-<Project Sdk="Microsoft.NET.Sdk">
+<Project>
   <PropertyGroup>
     <DefineConstants Condition=" '$(TargetFramework)' == 'net45' ">NET_45</DefineConstants>
     <DefineConstants Condition=" '$(TargetFramework)' != 'net45' ">NOT_45</DefineConstants>
