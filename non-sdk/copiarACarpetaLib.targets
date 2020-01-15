@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Este archivo copia los binarios existentes luego del proceso de compilación en un directorio superior al del proyecto al cual se le incluye el target. Se asegura de dejar la carpeta limpia antes de hacer nada -->
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<CosasCompiladas Include="**\*.dll;**\*.pdb;**\*.xml" Exclude="**\*.Designer.*;**\*.CodeAnalysis*"/>
